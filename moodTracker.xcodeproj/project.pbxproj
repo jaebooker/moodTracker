@@ -15,6 +15,7 @@
 		0DAEF1EA2194F48900D56D98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAEF1E82194F48900D56D98 /* LaunchScreen.storyboard */; };
 		0DAEF1F52194F48900D56D98 /* moodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAEF1F42194F48900D56D98 /* moodTrackerTests.swift */; };
 		0DAEF2002194F48900D56D98 /* moodTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAEF1FF2194F48900D56D98 /* moodTrackerUITests.swift */; };
+		0DAEF20E2194F73600D56D98 /* mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAEF20D2194F73600D56D98 /* mood.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0DAEF1FB2194F48900D56D98 /* moodTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moodTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DAEF1FF2194F48900D56D98 /* moodTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodTrackerUITests.swift; sourceTree = "<group>"; };
 		0DAEF2012194F48900D56D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DAEF20D2194F73600D56D98 /* mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mood.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				0DAEF1DC2194F48600D56D98 /* AppDelegate.swift */,
 				0DAEF1DE2194F48600D56D98 /* ViewController.swift */,
+				0DAEF20D2194F73600D56D98 /* mood.swift */,
 				0DAEF1E02194F48600D56D98 /* Main.storyboard */,
 				0DAEF1E62194F48900D56D98 /* Assets.xcassets */,
 				0DAEF1E82194F48900D56D98 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DAEF20E2194F73600D56D98 /* mood.swift in Sources */,
 				0DAEF1DF2194F48600D56D98 /* ViewController.swift in Sources */,
 				0DAEF1DD2194F48600D56D98 /* AppDelegate.swift in Sources */,
 				0DAEF1E52194F48600D56D98 /* moodTracker.xcdatamodeld in Sources */,
